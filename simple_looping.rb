@@ -5,7 +5,7 @@ def loop_iterator(number_of_times)
   
   loop do
     puts phrase
-    int = number_of_times
+      int += 1
     break if int == number_of_times
   end
   # Code your solution here using the "loop" keyword to puts out the below phrase
